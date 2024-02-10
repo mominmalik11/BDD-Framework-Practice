@@ -5,11 +5,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.hybrid.framework</groupId>
-	<artifactId>Hybrid_Framework_PnT_Sep_Dec_2023_Final_Version</artifactId>
+	<groupId>com.bdd.learning</groupId>
+	<artifactId>BDD_CUCUMBER</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>Hybrid_Framework_PnT_Sep_Dec_2023_Final_Version</name>
+	<name>BDD_CUCUMBER</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -173,7 +173,7 @@
 					<configuration>
 						<suiteXmlFiles>
 
-							<suiteXmlFile>src/test/resources/testNG.xml</suiteXmlFile>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
 
 						</suiteXmlFiles>
 					</configuration>
