@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 		plugin   = {"pretty", "html:target/site/cucumber-html", "json:target/cucumber1.json"}
 				)//write this second, features is where the features file is, glue is where the step definition file and hooks are, tag is the top part of the features file
 				// the plugin is where reports are saved
-public class Runner_TestNG extends AbstractTestNGCucumberTests {// you must extend the abstract StestNG cucmber class
+public class Test_Runner_TestNG extends AbstractTestNGCucumberTests {// you must extend the abstract StestNG cucmber class
 	
 	
 	
