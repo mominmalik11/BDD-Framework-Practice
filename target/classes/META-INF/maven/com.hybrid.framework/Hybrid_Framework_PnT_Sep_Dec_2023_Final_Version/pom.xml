@@ -173,7 +173,7 @@
 					<configuration>
 						<suiteXmlFiles>
 
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/testNG.xml</suiteXmlFile>
 
 						</suiteXmlFiles>
 					</configuration>

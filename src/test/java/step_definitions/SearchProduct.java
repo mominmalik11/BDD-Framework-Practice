@@ -64,10 +64,11 @@ public class SearchProduct {
 	}
 
 	@When("User enters the invalid product {string}")
-	public void user_enters_the_invalid_product(String invalidProduct) {
+	public void user_enters_the_invalid_product(String invalidProductText) {
 		searchPage = new SearchPage(driver);
-		searchPage.verifyDisplayStatusOfInValidProduct();
-		
+		homePage = new HomePage(driver);
+
+		homePage.enterProductDetail(invalidProductText);
 		
 		//driver.findElement(By.name("search")).sendKeys(invalidProduct);
 		
@@ -76,7 +77,7 @@ public class SearchProduct {
 
 	@Then("User gets warning message")
 	public void user_gets_warning_message() {
-		searchPage = new SearchPage(driver);
+		//searchPage = new SearchPage(driver);
 		Assert.assertTrue(searchPage.verifyDisplayStatusOfInValidProduct());
 		
 

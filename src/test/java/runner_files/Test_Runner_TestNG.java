@@ -1,7 +1,7 @@
 package runner_files;
 
 
-import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.AbstractTestNGCucumberTests;// make sure to name the class Test_XXXXXXX because then the compiler will let you run it as a Maven test 
 import io.cucumber.testng.CucumberOptions;
 
 
